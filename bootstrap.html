@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+		<title>Using Bootstrap</title>
+        <style>
+            .btn-primary {
+                background-color: gold;
+            }
+            body {
+                background-color: black;
+            }
+            .container {
+                background-color: white;
+            }
+
+            .dblock {
+                background-color: black;
+            }
+
+            .table {
+                background-color: blanchedalmond;
+            }
+
+            .mb-3 {
+                color: gold; font-family: Georgia, 'Times New Roman', Times, serif; font-weight: 800;
+            }
+
+            .btn {
+                background-color: gold;
+            }
+          
+
+        </style>
+	</head>
+	<body>
+		<div class="container text-center">
+			
+			<div class="row">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">GREATMOVIES.COM</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Link</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Dropdown </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><hr class="dropdown-divider" /></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                            </ul>
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                                <button class="btn btn-outline-success" type="submit">Search</button>
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="row">
+                <div class="p-5 text-center bg-image rounded-3" style="
+                background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fd8%2F57%2F24%2Fd857247c4d183bc34235a12b7f2c8d8c.jpg&f=1&nofb=1&ipt=1181a648110c8ab444a33d93eef710dee1aedae72269f2b00b5b6187ffbff29b&ipo=images');
+                height: 400px;">
+                <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+                <div class="d-flex justify-content-center align-items-center h-100">
+                  <div class="text-white">
+                    <h1 class="mb-3">Oscar Worthy</h1>
+                    <h4 class="mb-3">Highest Rated Movies of the 2010s</h4>
+                    <a class="btn btn-outline-light btn-lg" href="#!" role="button">Explore!</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row text-center" style="margin-left: 4em;">
+                <div class="col-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fvisualartideas.com%2Fwp-content%2Fuploads%2F2018%2F12%2FAvengers-Endgame-Posters-2019-4.jpg&f=1&nofb=1&ipt=d88d47d902e84920b8d79ee6c8375b0516e28ba25b7004ee0b5e07d70e294d1c&ipo=images" class="card-img-top" alt="Toy Story 3">
+                        <div class="card-body">
+                          <h5 class="card-title">Avengers Endgame</h5>
+                          <p class="card-text">2019<br>8.4/10</p>
+                          <a href="#" class="btn btn-primary">Watch Now!</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fvignette.wikia.nocookie.net%2Fcinemorgue%2Fimages%2Fc%2Fc7%2FThe_Wolf_of_Wall_Street_2013.jpg%2Frevision%2Flatest%3Fcb%3D20170223001424&f=1&nofb=1&ipt=a69f2783b9dd6c06a584a26af1428934e874da9bcd9e07a5d750101125b56074&ipo=images" class="card-img-top" alt="Wolf of Wall Street">
+                        <div class="card-body">
+                          <h5 class="card-title">The Wolf of Wall Street</h5>
+                          <p class="card-text">2013<br>8.2/10</p>
+                          <a href="#" class="btn btn-primary">Watch Now!</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.newdvdreleasedates.com%2Fimages%2Fposters%2Flarge%2Fdjango-unchained-2012-05.jpg&f=1&nofb=1&ipt=8274781442e3669d1505444cdf3e769be5fdb4ac98d25bd8ba1dbfe60d6c7685&ipo=images" class="card-img-top" alt="Django">
+                        <div class="card-body">
+                          <h5 class="card-title">Django Unchained</h5>
+                          <p class="card-text">2012<br>8.4/10</p>
+                          <a href="#" class="btn btn-primary">Watch Now!</a>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+            
+            <div class="row">
+                <table class="table table-striped table-hover table-bordered border-secondary" style="margin: 1em;">
+                    <thead>
+                      <tr>
+                        <th scope="col">Rank</th>
+                        <th scope="col">Movie</th>
+                        <th scope="col">Year</th>
+                        <th scope="col">Score</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Inception</td>
+                        <td>2010</td>
+                        <td>8.8/10</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Interstellar</td>
+                        <td>2014</td>
+                        <td>8.6/10</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>The Intouchables</td>
+                        <td>2011</td>
+                        <td>8.5/10</td>
+                         <tr>
+                        <th scope="row">4</th>
+                        <td>Whiplash</td>
+                        <td>2014</td>
+                        <td>8.5/10</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">5</th>
+                        <td>Joker</td>
+                        <td>2019</td>
+                        <td>8.4/10</td>
+                      </tr>
+                      </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="row">
+                <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                    <p class="col-md-4 mb-0 text-body-secondary">© 2023 Company, Inc</p>
+                
+                    <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                      <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+                    </a>
+                
+                    <ul class="nav col-md-4 justify-content-end">
+                      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+                      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+                      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+                      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+                      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+                    </ul>
+                  </footer>
+            </div>
+            
+         </div>
+       
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+	</body>
+</html>
